@@ -7,5 +7,116 @@
     <link rel="stylesheet" href="./style.css" />
     <title>The Odin Project Signup Form Assignment</title>
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <!-- hero -->
+      <div id="hero">
+        <div id="logo">
+          <img src="./images/odin-lined.png" alt="The Odin Project" />
+          <h1>Signup Form</h1>
+        </div>
+        <p id="attribution">
+          Photo by
+          <a
+            href="https://unsplash.com/@hialexxlarioss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Alexx Cooper</a
+          >
+          on
+          <a
+            href="https://unsplash.com/s/photos/moss?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+      <!-- /hero -->
+
+      <!-- main -->
+      <div id="main">
+        <div id="form">
+          <form action="/" method="POST">
+            <!-- header -->
+            <div id="header">
+              <div>
+                <h1>
+                  This is not a real online service! You know you need something
+                  like this in your life to help you realise your deepest
+                  dreams. Sign up <em>now</em> to get started.
+                </h1>
+              </div>
+              <div>&nbsp;</div>
+              <div>
+                <h1>You <em>know</em> you want to.</h1>
+              </div>
+            </div>
+            <!-- /header -->
+
+            <div id="input">
+              <div><p>Let's do this!</p></div>
+              <div class="pair">
+                <div>
+                  <label for="firstName">First Name</label><br />
+                  <input type="text" id="firstName" name="firstName" />
+                </div>
+                <div>
+                  <label for="lastName">Last Name</label><br />
+                  <input
+                    type="text"
+                    id="lastName"
+                    class="focus"
+                    name="lastName"
+                  />
+                </div>
+              </div>
+
+              <div class="pair">
+                <div>
+                  <label for="email">Email</label><br />
+                  <input type="email" id="email" name="email" />
+                </div>
+                <div>
+                  <label for="phone">Phone Number</label><br />
+                  <input type="phone" id="phone" name="phone" />
+                </div>
+              </div>
+
+              <div class="pair">
+                <div>
+                  <label for="password">Password</label><br />
+                  <input
+                    type="password"
+                    id="password"
+                    class="error"
+                    name="password"
+                  />
+                </div>
+                <div>
+                  <label for="confirm">Confirm Password</label><br />
+                  <input
+                    type="password"
+                    id="confirm"
+                    class="error"
+                    name="confirm"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- input -->
+
+            <div id="submit">
+              <div>
+                <button id="submitbutton" type="submit" name="submit">
+                  Create Account
+                </button>
+              </div>
+              <div>&nbsp;</div>
+              <div>Already have an account? <a href="/login">Log in</a></div>
+            </div>
+            <!-- submit -->
+          </form>
+        </div>
+        <!-- form -->
+      </div>
+      <!-- main -->
+    </div>
+  </body>
 </html>
